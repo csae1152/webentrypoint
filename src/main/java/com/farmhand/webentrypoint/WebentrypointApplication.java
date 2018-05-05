@@ -10,6 +10,6 @@ public class WebentrypointApplication {
         SpringApplication.run(WebentrypointApplication.class, args);
     }
     
-    private void logStart() {
+    private void logStart(Logger log) {
     }
 }
