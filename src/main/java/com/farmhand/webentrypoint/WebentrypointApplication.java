@@ -11,5 +11,6 @@ public class WebentrypointApplication {
     }
     
     private void logStart(Logger log) {
+        log.info("Starting server...");
     }
 }
